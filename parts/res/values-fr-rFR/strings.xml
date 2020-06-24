@@ -103,4 +103,9 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Nettoyage du haut-parleur</string>
+    <string name="clear_speaker_summary">Jouer un son de 30 secondes pour dégager le haut-parleur.</string>
+    <string name="clear_speaker_description">Exécutez cette fonction une ou deux fois si vous constatez que votre haut-parleur est légèrement bloqué par la poussière. Réglez le volume des médias au maximum.\n\nSi le haut-parleur est fortement bloqué, exécutez cette fonction 2 à 5 fois tout en secouant votre appareil avec le haut-parleur orienté vers le bas.\n\nAVERTISSEMENT : Assurez-vous que les écouteurs sont débranchés.</string>
 </resources>
