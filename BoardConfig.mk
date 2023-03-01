@@ -96,6 +96,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lmi
 TARGET_KERNEL_CONFIG := lmi_defconfig
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+
 # Media
 TARGET_USES_ION := true
 
