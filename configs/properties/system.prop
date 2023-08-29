@@ -16,6 +16,9 @@ persist.vendor.cne.feature=1
 # Display
 qemu.sf.lcd_density=440
 
+# FEAS
+ro.feas.enable=true
+
 # Graphics
 persist.demo.hdmirotationlock=false
 
