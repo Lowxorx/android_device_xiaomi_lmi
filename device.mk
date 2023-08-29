@@ -261,6 +261,7 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc_snxxx@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
+    hal_libnfc \
     libchrome.vendor \
     NfcNci \
     SecureElement \
