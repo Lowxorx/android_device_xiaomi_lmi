@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lmi.mk
+    $(LOCAL_DIR)/spark_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lmi-userdebug \
-    lineage_lmi-eng
+    spark_lmi-userdebug \
+    spark_lmi-eng

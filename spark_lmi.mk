@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lmi device
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Spark stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_lmi
+PRODUCT_NAME := spark_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30 Pro
@@ -31,3 +31,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT="lmi"
 
 BUILD_FINGERPRINT := Redmi/lmi/lmi:12/RKQ1.211001.001/V14.0.5.0.SJKCNXM:user/release-keys
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_BOOT_ANIMATION_RES := 1440

@@ -1,0 +1,9 @@
+[
+   {
+        "remote": "devices",
+        "repository": "android_vendor_xiaomi_lmi",
+        "target_path": "vendor/xiaomi/lmi",
+        "branch": "pyro"
+    }
+]
+

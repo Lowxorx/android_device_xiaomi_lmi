@@ -3,6 +3,11 @@ persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.bt.a2dp.hal.implementation=true
 
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1 
+
 # Camera
 persist.camera.gyro.disable=0
 persist.vendor.camera.privapp.list=com.android.camera
@@ -53,6 +58,13 @@ ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.telephony.default_network=33,33
 ro.vendor.radio.features_common=3
+
+
+# Spark-OS
+ro.spark.device.name=POCO F2 Pro
+ro.spark.group.url=https://t.me/SparkOSCommunity
+ro.spark.maintainer=Lowxorx
+ro.spark.maintainer.username=Lowxorx
 
 # SSR
 persist.vendor.ssr.enable_ramdumps=1
