@@ -34,6 +34,10 @@
     <string name="popup_sound_jijia">Méca</string>
     <string name="popup_sound_chilun">Engrenage</string>
     <string name="popup_sound_cangmen">Porte de cabine</string>
+    <string name="popup_calibration_title">Calibration</string>
+    <string name="popup_calibration_summary">Calibrer le moteur de la caméra frontale</string>
+    <string name="popup_calibration_warning_title">Calibration du moteur</string>
+    <string name="popup_calibration_warning_text">La calibration inutile du moteur de la caméra frontale peut entraîner des dommages permanents. Il est recommandé de calibrer le moteur uniquement s\'il ne se déplace pas correctement ou s\'il est mal positionné !</string>
 
     <!-- Popup camera strings -->
     <string name="popup_camera_tip">Attention</string>
@@ -86,11 +90,6 @@
     <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
     <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
     <string name="dirac_headset_earphone">Mi Earphones</string>
-    <string name="dirac_headset_ear_four">Mi Quadruple Driver Earphones</string>
-    <string name="dirac_headset_piston_typec">Mi In-Ear Headphones (Type-C)</string>
-    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Neckband</string>
-    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth Earphones</string>
-    <string name="dirac_headset_redmi_earphones">Redmi Earphones</string>
 
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">Default</string>
@@ -104,40 +103,4 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
-    <string name="dirac_preset_bass_booster">Amplificateur de basses</string>
-    <string name="dirac_preset_live">Live</string>
-    <string name="dirac_preset_balanced">Équilibré</string>
-    <string name="dirac_preset_bass_reduction">Réduction des basses</string>
-    <string name="dirac_preset_treble_reduction">Réduction des aigus</string>
-    <string name="dirac_preset_soft_bass">Basses douces</string>
-    <string name="dirac_preset_soft_treble">Aigus doux</string>
-
-    <string name="music_headset_scenario_intelligent">Intelligent</string>
-    <string name="music_headset_scenario_music">Musique</string>
-    <string name="music_headset_scenario_select">Sélectionner une scène</string>
-    <string name="music_headset_scenario_video">Vidéo</string>
-    <string name="music_headset_scenario_vocal">Voix</string>
-
-    <!--Display settings fragment -->
-    <string name="display_settings_title">Paramètres d\'affichage personnalisés</string>
-    <string name="display_settings_summary">HBM, DC Dimming</string>
-
-    <!-- DC dimming settings -->
-    <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">Le DC Dimming réduit la fatigue oculaire dans des conditions de faible luminosité (Note : réduit de la qualité de l\'image).</string>
-    <string name="dc_dimming_enable_summary_not_supported">Le DC Dimming n\'est actuellement pas pris en charge par le noyau.</string>
-
-    <!-- HBM settings -->
-    <string name="hbm_mode_title">Mode haute luminosité</string>
-    <string name="hbm_mode_summary">Le mode haute luminosité (HBM) permet à la luminosité du panneau d\'affichage de dépasser la valeur maximale en stock. Cela permet d\'améliorer la visibilité en plein soleil.</string>
-    <string name="hbm_enable_summary_not_supported">HBM n\'est actuellement pas pris en charge par le noyau.</string>
-
-    <!-- High Touch Polling Rate Support strings -->
-    <string name="htsr_enable_title">Amélioration de la réactivité tactile</string>
-    <string name="htsr_enable_summary">Augmente la fréquence d\'interrogation de l\'écran tactile pour réduire la latence des touches.</string>
-
-    <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Nettoyage du haut-parleur</string>
-    <string name="clear_speaker_summary">Jouer un son de 30 secondes pour dégager le haut-parleur.</string>
-    <string name="clear_speaker_description">Exécutez cette fonction une ou deux fois si vous constatez que votre haut-parleur est légèrement bloqué par la poussière. Réglez le volume des médias au maximum.\n\nSi le haut-parleur est fortement bloqué, exécutez cette fonction 2 à 5 fois tout en secouant votre appareil avec le haut-parleur orienté vers le bas.\n\nAVERTISSEMENT : Assurez-vous que les écouteurs sont débranchés.</string>
 </resources>
